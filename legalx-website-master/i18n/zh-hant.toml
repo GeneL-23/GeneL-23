@@ -1,0 +1,59 @@
+[legalx]
+other = "法智科技"
+
+[home]
+other = "首頁"
+
+[about]
+other = "關於我們"
+
+[products]
+other = "産品"
+
+[blog]
+other = "博客"
+
+[contact]
+other = "聯繫我們"
+
+[yourName]
+other = "名字"
+
+[yourEmail]
+other = "工作電郵"
+
+[yourPhoneNumber]
+other = "電話"
+
+[subject]
+other = "主題"
+
+[message]
+other = "內容"
+
+[submit]
+other = "提交"
+
+[ourLocation]
+other = "辦公地址"
+
+[callUs]
+other = "客戶聯繫"
+
+[office]
+other = "電話"
+
+[login]
+other = "登入"
+
+[terms]
+other = "使用條款"
+
+[privacy]
+other = "隱私政策"
+
+[footerCopyright]
+other = "2018-2019 法智科技版權所有"
+
+[continueReading]
+other = "繼續閱讀"

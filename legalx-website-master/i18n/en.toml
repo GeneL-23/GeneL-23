@@ -1,0 +1,59 @@
+[legalx]
+other = "LegalX"
+
+[home]
+other = "Home"
+
+[about]
+other = "About Us"
+
+[products]
+other = "Products"
+
+[blog]
+other = "Blog"
+
+[contact]
+other = "Contact Us"
+
+[yourName]
+other = "Name"
+
+[yourEmail]
+other = "Email"
+
+[yourPhoneNumber]
+other = "Phone Number"
+
+[subject]
+other = "Subject"
+
+[message]
+other = "Message"
+
+[submit]
+other = "Submit"
+
+[ourLocation]
+other = "Our Location"
+
+[callUs]
+other = "Call Us"
+
+[office]
+other = "Office"
+
+[login]
+other = "Login"
+
+[terms]
+other = "Terms of Use"
+
+[privacy]
+other = "Privacy Policy"
+
+[footerCopyright]
+other = "Copyright 2019. All rights reserved."
+
+[continueReading]
+other = "Continue reading"

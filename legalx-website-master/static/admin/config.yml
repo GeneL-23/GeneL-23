@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: master
+
+publish_mode: editorial_workflow
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "english-posts"
+    label: "English Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "en.md"
+    format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date", name: "date", required: true, widget: "datetime"}
+      - label: "Cover Image"
+        name: "cover_image"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "hans-posts"
+    label: "简中文章"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "zh-hans.md"
+    format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date", name: "date", required: true, widget: "datetime"}
+      - label: "Cover Image"
+        name: "cover_image"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "hant-posts"
+    label: "繁中文章"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "zh-hant.md"
+    format: "frontmatter"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Author", name: "author", widget: "string"}
+      - {label: "Date", name: "date", required: true, widget: "datetime"}
+      - label: "Cover Image"
+        name: "cover_image"
+        required: true
+        widget: "image"
+        media_library:
+          config:
+            multiple: false
+      - {label: "Body", name: "body", widget: "markdown"}

@@ -1,7 +1,0 @@
-enable  : true
-item    :
-  - positionRight : false
-    image : images/app-demo.jpg
-    title : About LegalX
-    description : >
-      LegalX is designed by professionals experienced in project execution, including lawyers, auditors, investment bankers and company secretaries. Use us to proudly apply the latest technologies to your business. We are an all-in-one solution for any professional services firms, private or listed companies, by enabling workflow automation, document management, search visualization, cloud-computing and AI capabilities. We provide both cutting-edge products and professional support services.
